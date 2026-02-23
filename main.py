@@ -1,3 +1,4 @@
+from pokedex import search_pokemon, remove_pokemon, view_pokedex, add_pokemon
 def main():
     while True:
         print("\nPokédex Menu:")
@@ -10,15 +11,15 @@ def main():
 
         if choice == "1":
             name = input("Enter Pokémon name or ID: ")
-            print(f"Search for {name}'s details") #Replace with function later
+            print(search_pokemon(name))
         elif choice == "2":
             name = input("Enter Pokémon name to add: ")
-            print(f"Add {name} to Pokedex") #Replace with function later
+            print(add_pokemon(name))
         elif choice == "3":
-            print('View Pokedex') #Replace with function later
+            print(view_pokedex()) #Replace with function later
         elif choice == "4":
             name = input("Enter Pokémon name to remove: ")
-            print(f'Remove {name} from Pokedex') #Replace with function later
+            print(remove_pokemon(name))
         elif choice == "5":
             print("Exiting Pokédex.")
             break

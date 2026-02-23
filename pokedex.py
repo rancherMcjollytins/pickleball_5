@@ -46,6 +46,3 @@ def remove_pokemon(name):
         print("Pokémon not found in your Pokédex.")
 
 #<------------------------------TEST YOUR FUNCTIONS BELOW------------------------------>
-view_pokedex()
-user_pokemon = input("whatchuwant man: ")
-print(search_pokemon(user_pokemon))
