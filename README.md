@@ -22,7 +22,7 @@ btw im a kid who doesnt know what hes doing so if stuff is missing thats why
 
 #### To Install:
 -   Download Python from official site or Microsoft store.
-- In a command terminal (powershell, command prompt, terminal), enter "pip install requests", if wanted, you can use a virtual environment.
+- In a command terminal (powershell, command prompt, terminal), enter "pip install requests" or "pip install -r requirements.txt" if you have the requirements.txt file. If wanted, you can use a virtual environment.
 -  Run main.py file.
 
 ---
